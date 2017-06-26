@@ -39,6 +39,8 @@ object DependenciesConf {
     "org.scalatest" %% "scalatest" % "3.2.0-SNAP8" % Test,
     "org.scalacheck" %% "scalacheck" % "1.13.5" % Test,
     "eu.timepit" %% "refined-scalacheck" % "0.8.2" % Test,
-    "org.scalamock" %% "scalamock-scalatest-support" % "3.6.0" % Test
+    "org.scalamock" %% "scalamock-scalatest-support" % "3.6.0" % Test,
+
+  "org.scalaz" %% "scalaz-core" % "7.2.14"
   )
 }
